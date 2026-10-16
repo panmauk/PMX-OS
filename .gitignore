@@ -1,0 +1,22 @@
+# Build artifacts / large binaries — never commit
+*.iso
+*.iso.zsync
+*.deb
+*.qcow2
+*.raw
+*.fd
+*.squashfs
+
+# Secrets / keys — never commit
+*_rsa
+*_ed25519
+id_*
+pmx_vm*
+*.pem
+*.key
+**/.ssh/
+**/authorized_keys
+
+# OS cruft
+Thumbs.db
+.DS_Store
